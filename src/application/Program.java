@@ -44,11 +44,11 @@ public class Program {
 		sellerDao.update(seller);
 		System.out.println("Update complete");
 		
-		/*System.out.println("\n===TEST 6 : seller insert====");
+		System.out.println("\n===TEST 6 : seller insert====");
 		System.out.println("Enter id for delete test: ");
 		int id = sc.nextInt();
 		sellerDao.deleteById(id);
-		System.out.println("Delete completed");*/
+		System.out.println("Delete completed");
 		
 		
 		sc.close();
